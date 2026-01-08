@@ -1,0 +1,137 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.sec1-container {
+  background-image: url("../image/banner1.png");
+  background-size: cover; /* fit screen */
+  background-position: center; /* center image */
+  background-repeat: no-repeat;
+  background-attachment: scroll; /* image stays scroll */
+  padding-top: 216px;
+  padding-right: 230px;
+  padding-bottom: 166px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+.sec1-container .box-heading {
+  width: 525px;
+}
+.sec1-container h2 {
+  font-size: 65px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+.sec1-container .box-parra {
+  width: 494px;
+}
+.sec1-container p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 32px;
+}
+.btn {
+  background-color: #f15b22;
+  color: #ffffff;
+  width: 160px;
+  height: 64px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.sec2-container {
+  display: flex;
+  width: 71%;
+  max-width: 1140px;
+  margin: 130px auto;
+  gap: 87px;
+}
+
+.sec2-container .text {
+  width: 416px;
+  margin-top: 239px;
+}
+.text h3 {
+  width: 288px;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+.text .description {
+  width: 416px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 16px;
+}
+.main-point {
+  width: 349px;
+}
+.main-point .point {
+  display: flex;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 8px;
+}
+.main-point .point i {
+  color: #16d887;
+  margin: 0px 1px 0px 0px;
+  align-items: center;
+}
+.sec3-container {
+  margin: 130px auto;
+  width: 71%;
+  max-width: 1140px;
+}
+.sec3-container .my-plan {
+  text-align: center;
+  margin-bottom: 130px;
+}
+.sec3-container .my-plan h2 {
+  color: #151414;
+  font-size: 40px;
+}
+.skills {
+  display: flex;
+  gap: 86px;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+.skills .card img {
+  width: 93px;
+}
+.skills .card h3 {
+  color: #151414;
+  font-size: 30px;
+}
+.skills .card p {
+  color: #737272;
+  font-size: 25px;
+}
+.sec3-container .call-now {
+  /* background: url("../image/watch.png"), url("../image/gradient3.png"); */
+  background-image: linear-gradient(
+      rgba(218, 180, 43, 0.5),
+      rgba(182, 170, 150, 0.5)
+    ),
+    url("../image/watch.png");
+  height: 300px;
+  padding: 59px 0px 59px 64px;
+}
+.call-now h2 {
+  width: 459px;
+  margin-bottom: 24px;
+  font-size: 40px;
+  color: #ffffff;
+}
+.calling .btn {
+  background-color: #ffffff;
+  color: #f15b22;
+  width: 160px;
+}
